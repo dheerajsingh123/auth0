@@ -56,13 +56,13 @@ class Auth {
     }
 
     signOut() {
-        // // clear id token, profile, and expiration
-        // this.idToken = null;
-        // this.profile = null;
-        // this.expiresAt = null;
+        // clear id token, profile, and expiration
+        this.idToken = null;
+        this.profile = null;
+        this.expiresAt = null;
         this.auth0.logout({
             returnTo: 'http://localhost:3000',
-            clientID: 'https://dheerajsingh10.eu.auth0.com/userinfo',
+            clientID: 'Hqv894VwTLzuZTbrnIpfJAqMwrRR9SIW',
         });
     }
 
